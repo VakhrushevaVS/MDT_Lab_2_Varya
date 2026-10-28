@@ -1,0 +1,35 @@
+{
+  "student": "Вахрушева Варвара Сергеевна",
+  "group": "ИНДОР-221",
+  "variant": 3,
+  "config": {
+    "sensor": "Encoder+IMU",
+    "freq_hz": 5,
+    "noise_pct": 1.5,
+    "loss_pct": 0,
+    "seed": 203
+  },
+  "metrics": {
+    "messages_sent": 400,
+    "messages_received": 400,
+    "loss_pct_actual": 0.0,
+    "pdr_pct": 100.0,
+    "rate_nominal_hz": 10,
+    "rate_actual_hz": 10.0,
+    "longest_loss_burst": 0,
+    "delay_median_ms": 7.9,
+    "jitter_ms": 4.22,
+    "encoder_sensor_rmse": 0.01433,
+    "encoder_sensor_bias": 0.00056,
+    "encoder_recon_rmse": 0.02656,
+    "encoder_max_gap_s": 0.2,
+    "encoder_aoi_mean_s": 0.095,
+    "encoder_aoi_max_s": 0.19,
+    "imu_sensor_rmse": 0.03529,
+    "imu_sensor_bias": 0.01777,
+    "imu_recon_rmse": 0.06223,
+    "imu_max_gap_s": 0.2,
+    "imu_aoi_mean_s": 0.095,
+    "imu_aoi_max_s": 0.19
+  }
+}
